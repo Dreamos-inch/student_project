@@ -35,6 +35,7 @@ class DateTimes
             echo 'before ' . intval($result) . ' hours';
             return;
         }
+        
         $result = $result / 24;
 
         if ($result < 7) {
