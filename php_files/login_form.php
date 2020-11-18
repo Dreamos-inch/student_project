@@ -14,10 +14,7 @@
 
     if (isset($_COOKIE['Login-cookie'])) {
         echo 'Welcome back ' . $_COOKIE['Login-cookie']; //this will return the cookie value 
-
-    } 
-    
-    else {
+    } else {
         session_name('Login');
         session_start();
     ?>

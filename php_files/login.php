@@ -1,9 +1,6 @@
 
     <?php
-
-    
     print_r($_COOKIE);
-
     if(isset($_COOKIE['LOGIN'])){
         $session_value = [
             'name'=>$_POST['name'],
